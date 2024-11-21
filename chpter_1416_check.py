@@ -135,4 +135,9 @@ for a in range(N,0,-1):
     print(" " * (N-a) + "*" * (2*a-1))
 '''
 
+# 1부터 10까지 중 짝수만 출력해보자!
+for a in range(1,11):
+    if a %2 ==0:
+        print(a)
+
 
